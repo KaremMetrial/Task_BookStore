@@ -21,6 +21,7 @@ if (isset($_GET['deleteId'])) {
 
 
 ?>
+<div class="container">
 <div class="row d-flex justify-content-center align-items-center h-100 mt-5">
     <div class="col-12">
         <div class="card card-registration card-registration-2" style="border-radius: 15px;">
@@ -85,7 +86,7 @@ if (isset($_GET['deleteId'])) {
         </div>
     </div>
 </div>
-
+</div>
 <?php
 include '../includes/footer.php';
 ?>
